@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd2d21b8-d2fd-4d79-99d1-6338109760b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c27ebbd9-f5ee-4662-ae3e-ef079cdbd2d3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-api/target/classes/com/wrx/pojo/Dept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-api/target/classes/com/wrx/service/DeptClientService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-api/target/classes/com/wrx/service/DeptClientServiceFallBackFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-api/target/classes/com/wrx/service/DeptClientServiceFallBackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer-dept-80/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer-dept-feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer-dept-feign/target/classes/com/wrx/FeignDeptConsumer_80.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer-dept-feign/target/classes/com/wrx/config/ConfigBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer-dept-feign/target/classes/com/wrx/controller/DeptConsumerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-7001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-7001/target/classes/com/wrx/EurekaService_7001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8001/target/classes/com/wrx/DeptProvider_8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8001/target/classes/com/wrx/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8001/target/classes/com/wrx/dao/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8001/target/classes/com/wrx/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8001/target/classes/com/wrx/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8001/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8001/target/classes/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8002/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8002/target/classes/com/wrx/DeptProvider_8002.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8002/target/classes/com/wrx/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8002/target/classes/com/wrx/dao/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8002/target/classes/com/wrx/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8002/target/classes/com/wrx/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8002/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-8002/target/classes/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/com/wrx/DeptProvider_8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/com/wrx/HystrixDeptProvider_8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/com/wrx/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/com/wrx/dao/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/com/wrx/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/com/wrx/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/mybatis/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/classes/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-9527/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul-9527/target/classes/com/wrx/ZuulApplication_9527.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-api/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-provider/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-provider-dept-8001/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consumer-dept-80/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-7001/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-provider-dept-8002/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-consumer-dept-feign/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-zuul-9527/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-9527/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>actuator</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c27ebbd9-f5ee-4662-ae3e-ef079cdbd2d3/console.sql" />
+        <option value="$PROJECT_DIR$/spring-cloud-api/src/main/java/pojo/Dept.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/resources/mybatis/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/java/com/wrx/dao/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/java/com/wrx/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/java/com/wrx/service/DeptServiceImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c27ebbd9-f5ee-4662-ae3e-ef079cdbd2d3/console_1.sql" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-7001/src/main/java/com/wrx/EurekaService_7001.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/java/com/wrx/DeptProvider_8001.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-80/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/java/com/wrx/controller/DeptConsumerController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/java/com/wrx/config/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/java/com/rule/MyRibbonRule.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/java/com/wrx/DeptConsumer_80.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-feign/src/main/java/com/wrx/FeignDeptConsumer_80.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-feign/src/main/java/com/wrx/controller/DeptConsumerController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/src/main/java/com/wrx/HystrixDeptProvider_8001.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/java/com/wrx/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-8002/src/main/java/com/wrx/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/wrx/service/DeptClientServiceFailBackFactory.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/wrx/service/DeptClientServiceFallBackFactory.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-api/src/main/java/com/wrx/service/DeptClientService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer-dept-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/src/main/java/com/wrx/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul-9527/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul-9527/src/main/java/com/wrx/ZuulApplication_9527.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/src/main/resources/mybatis/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul-9527/src/main/resources/application1.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul-9527/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Data\DevelopData\maven_jar" />
+        <option name="mavenHome" value="D:/DevelopTools/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\DevelopTools\apache-maven-3.5.4\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1346" />
+    <option name="height" value="689" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-9527" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul-9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16992188" />
+    <property name="project.structure.side.proportion" value="0.43681592" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Data\DevelopData\IdeaWorkspace\springcloud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Data\DevelopData\IdeaWorkspace\springcloud\spring-cloud-provider-dept-8001\src\main\resources\mybatis\" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZuulApplication_9527">
+    <configuration name="DeptProvider_8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-provider-dept-8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wrx.DeptProvider_8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaService_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-eureka-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wrx.EurekaService_7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignDeptConsumer_80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-consumer-dept-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wrx.FeignDeptConsumer_80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDeptProvider_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-provider-dept-Hystrix8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wrx.HystrixDeptProvider_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication_9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-zuul-9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wrx.ZuulApplication_9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.HystrixDeptProvider_8001" />
+        <item itemvalue="Spring Boot.ZuulApplication_9527" />
+        <item itemvalue="Spring Boot.EurekaService_7001" />
+        <item itemvalue="Spring Boot.DeptProvider_8002" />
+        <item itemvalue="Spring Boot.FeignDeptConsumer_80" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd2d21b8-d2fd-4d79-99d1-6338109760b3" name="Default Changelist" comment="" />
+      <created>1609730702163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609730702163</updated>
+      <workItem from="1609730703888" duration="3519000" />
+      <workItem from="1609739125213" duration="11853000" />
+      <workItem from="1609806698297" duration="17474000" />
+      <workItem from="1609892594137" duration="1184000" />
+      <workItem from="1609895462734" duration="500000" />
+      <workItem from="1609896009058" duration="992000" />
+      <workItem from="1609897051726" duration="2239000" />
+    </task>
+    <task id="LOCAL-00001" summary="asd">
+      <created>1609899126820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609899126820</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始提交">
+      <created>1609899260817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609899260817</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37761000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Alibaba Cloud Explorer" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.20628998" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.329718" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="5" weight="0.329718" />
+      <window_info anchor="bottom" id="MyBatis Log" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.329718" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.329718" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" weight="0.329718" />
+      <window_info anchor="right" id="Alibaba ROS Templates" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Word Book" order="2" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="3" />
+      <window_info anchor="right" id="Alibaba Function Compute" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Alibaba Log Console" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="11" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="12" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asd" />
+    <MESSAGE value="初始提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始提交" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../maven_jar/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding>
+            <element signature="e#8718#8719#0" expanded="true" />
+            <element signature="e#8772#8773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../maven_jar/org/springframework/boot/spring-boot-starter-actuator/2.1.4.RELEASE/spring-boot-starter-actuator-2.1.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven_jar/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="189" column="5" lean-forward="true" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api/src/main/java/com/wrx/pojo/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-7001/src/main/java/com/wrx/EurekaService_7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/java/com/wrx/DeptProvider_8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8002/src/main/java/com/wrx/dao/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8002/src/main/java/com/wrx/service/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/java/com/wrx/config/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/java/com/rule/MyRibbonRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/java/com/wrx/DeptConsumer_80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-feign/src/main/java/com/wrx/config/ConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven_jar/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven_jar/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven_jar/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0.jar!/feign/FeignException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/java/com/wrx/dao/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/java/com/wrx/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-80/src/main/java/com/wrx/controller/DeptConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-feign/src/main/java/com/wrx/controller/DeptConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="36" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/src/main/java/com/wrx/dao/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8002/src/main/java/com/wrx/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/src/main/java/com/wrx/HystrixDeptProvider_8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-feign/src/main/java/com/wrx/FeignDeptConsumer_80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/src/main/java/com/wrx/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/java/com/wrx/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api/src/main/java/com/wrx/service/DeptClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-api/src/main/java/com/wrx/service/DeptClientServiceFallBackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" selection-start-line="12" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer-dept-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven_jar/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/EnableZuulProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-9527/src/main/java/com/wrx/ZuulApplication_9527.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-9527/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-9527/spring-cloud-zuul-9527.iml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-9527/target/classes/com/wrx/ZuulApplication_9527.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/src/main/resources/mybatis/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-Hystrix8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-provider-dept-8002/src/main/java/com/wrx/DeptProvider_8002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-9527/src/main/resources/application1.yml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven_jar/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.1.RELEASE/spring-cloud-netflix-zuul-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="e#5580#5581#0" expanded="true" />
+            <element signature="e#5634#5635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul-9527/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43681592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43681592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43681592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43681592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|spring-cloud-zuul-9527</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43681592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43681592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
