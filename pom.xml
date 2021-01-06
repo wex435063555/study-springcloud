@@ -13,6 +13,7 @@
         <module>spring-cloud-consumer-dept-80</module>
         <module>spring-cloud-eureka-7001</module>
         <module>spring-cloud-zuul-9527</module>
+        <module>spring-cloud-config-server-3344</module>
     </modules>
 
     <properties>

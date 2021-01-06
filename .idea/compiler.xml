@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-zuul-9527" />
+        <module name="spring-cloud-config-client-3355" />
+        <module name="spring-cloud-config-server-3344" />
         <module name="spring-cloud-provider-dept-8002" />
         <module name="spring-cloud-provider-dept-8001" />
         <module name="spring-cloud-provider-dept-Hystrix8001" />
